@@ -1,0 +1,129 @@
+.navbar {
+    width: 100%;
+    border: 3px solid #ffffff;
+    background-color: transparent !important;
+    margin-bottom: 21px;
+    color: white;
+    font-family: Agency FB;
+    padding: 0.2rem 1rem;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 75px;
+    margin-left: 40px;
+}
+
+.btn-warning {
+    color: #fff;
+    background-color: #000000;
+    border-color: #000000;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-brand {
+    -webkit-animation:colorchange 1.5s infinite alternate;
+    font-size: 26px;
+    padding: 0;
+}
+
+@-webkit-keyframes colorchange {
+      0% {
+        color: black;
+      }
+      40% {
+          color: black;
+      }
+      60% {
+          color: white;
+      }
+      100% {
+        color: white;
+      }
+    }
+
+.card {
+    background-color: transparent;
+    border: 3px solid white;
+    transition: all 0.1s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.5);
+}
+
+.card-title {
+    margin-bottom: 0.2rem;
+}
+
+.card-cuerpo {
+    background-color: white;
+}
+
+.logo {
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.fila-animales {
+    padding: 20px 0;
+}
+
+.fila-animales .col {
+    padding: 0 78px;
+}
+
+.tema-stars {
+    background-image: url(../img/backgrounds/stars.jpg);
+    background-size: cover;
+}
+
+.tema-moons {
+    background-image: url(../img/backgrounds/moons.jpg);
+    background-size: cover;
+}
+
+.tema-acuatico {
+    background-image: url(../img/backgrounds/acuatico.jpg);
+    background-size: cover;
+}
+
+.tema-domestico {
+    background-image: url(../img/backgrounds/domestico.jpg);
+    background-size: cover;
+}
+
+
+.navbar-nav {
+    width: 100%;
+}
+
+.navbar-nav .nav-link  {
+    text-align: center;
+    cursor: -webkit-grab;
+    font-family: Agency FB;
+    font-size: 26px;
+    padding: 0;
+}
+
+
+#start-modal {
+    overflow: hidden;
+}
+
+#start-modal .modal-dialog {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#start-modal .modal-body {
+    padding: 0;
+}
